@@ -1,0 +1,10 @@
+.row.section_one {
+	background: url('../images/backgrounds/zoom-bg-1.jpg') center no-repeat; 
+	-moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+	padding: 20px 0 60px 0;
+	margin: 0;
+	color: white;
+}
