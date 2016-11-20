@@ -21,18 +21,20 @@
         <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
         
         <link rel="stylesheet" href="css/main.css">
+
+        <link rel="stylesheet" href="css/liLanding.css">
     </head>
 
     <body>
         <nav class="navbar navbar-default">
           <div class="container-fluid">
 
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse landingMenu" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#WoodyRoom" class="fa fa-cubes">Woody Room <span class="sr-only">(current)</span></a></li>
-                <li><a href="#services" class="fa fa-star">Услуги</a></li>
-                <li><a href="#our_works" class="fa fa-laptop">Наши работы</a></li>
-                <li><a href="#" class="fa fa-users">О нас</a></li>
+                <li class="active"><a href="#land_1" class="fa fa-cubes">Woody Room</a></li>
+                <li><a href="#land_2" class="fa fa-star">Услуги</a></li>
+                <li><a href="#land_3" class="fa fa-laptop">Наши работы</a></li>
+                <li><a href="#land_4" class="fa fa-users">О нас</a></li>
                 <li><a href="#" class="fa fa-envelope">Связь</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
@@ -41,7 +43,7 @@
     
         <!-- section_one -->
         <!-- style file: css/section_one.css -->
-        <section name="WoodyRoom">
+        <section id="land_1" name="WoodyRoom">
             <div class="row section_one">
                 <h1>Woody Room</h1>
                 <div class="col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4">
@@ -57,7 +59,7 @@
         <!-- end section_one -->
 
         <!-- section_service -->
-        <section name="service">
+        <section id="land_2" name="service">
             <div class="row section_service">
                 <h1>Услуги</h1>
                 <div class="col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 black-bg font_size-18px">
@@ -74,7 +76,7 @@
         
         <!-- section photo -->
         <!-- style file: css/section_photo.css -->
-        <section class="section_photo" name="our_works">
+        <section id="land_3" class="section_photo" name="our_works">
             <div class="row">
                 <h1>Наши работы</h1>
             </div>
@@ -94,7 +96,7 @@
 
         <!-- section_three -->
         <!-- style file: css/section_three.css -->
-        <section name="services">
+        <section id="land_4" name="services">
             <div class="row section_three">
                 <h1>О нас</h1>
                 <div class="col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4">
@@ -121,6 +123,18 @@
         <script src="js/jquery.backstretch.min.js"></script>
         <script src="js/templatemo_script.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+        <!-- <script src="/js/jquery-1.9.0.min.js"></script> -->
+        <script src="js/jquery.liLanding.js"></script>
+        <script>
+            $(window).load(function(){
+                $('.landingMenu').liLanding();
+
+                $(".nav a").on("click", function(){
+                    $(".nav").find(".active").removeClass("active");
+                    $(this).parent().addClass("active");
+                });
+            })
+        </script>
 
     </body> 
 </html>
