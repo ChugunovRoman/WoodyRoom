@@ -27,18 +27,18 @@
 
     <body>
         <nav class="navbar navbar-default">
-          <div class="container-fluid">
-
-            <div class="collapse navbar-collapse landingMenu" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#land_1" class="fa fa-cubes">Woody Room</a></li>
-                <li><a href="#land_2" class="fa fa-star">Услуги</a></li>
-                <li><a href="#land_3" class="fa fa-laptop">Наши работы</a></li>
-                <li><a href="#land_4" class="fa fa-users">О нас</a></li>
-                <li><a href="#" class="fa fa-envelope">Связь</a></li>
-              </ul>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
+            <div class="container-fluid">
+                <span class="logo">Woody Room</span>
+                <div class="collapse navbar-collapse landingMenu" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#land_1" class="fa fa-cubes">Woody Room</a></li>
+                        <li><a href="#land_2" class="fa fa-star">Услуги</a></li>
+                        <li><a href="#land_3" class="fa fa-laptop">Наши работы</a></li>
+                        <li><a href="#land_4" class="fa fa-users">О нас</a></li>
+                        <li><a href="#" class="fa fa-envelope">Связь</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
         </nav>
     
         <!-- section_one -->

@@ -1,9 +1,16 @@
-@import "global.css";
+/* Frameworks */
 @import "bootstrap.min.css";
 @import "font-awesome.min.css";
+
+/* common style */
+@import "global.css";
 @import "templatemo_main.css";
+
+/* Section styles */
 @import "section_one.css";
 @import "section_photo.css";
 @import "section_three.css";
 @import "section_service.css";
+
+/* media styles */
 @import "media.css";
