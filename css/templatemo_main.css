@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6, span, p {
 
 h1 {
     text-align: center;
-    margin: 20px 0 38px 0;
+    margin: 20px 0 68px 0;
 }
 
 .blue { color: #6CF; }
@@ -243,8 +243,12 @@ img.slide {
     color: #246BB2;
 }
 
-.fa-cubes::before, .fa-laptop::before, .fa-users::before, .fa-envelope::before, .fa-star::before {
+.fa-cubes::before, .fa-laptop::before, .fa-users::before, .fa-envelope::before, .fa-star::before, .fa-vk::before {
     margin: 0 10px 0 0;
+}
+a.fa-vk {
+    margin-right: 20px;
+    font-size: 18px;
 }
 
 .font_size-18px {
@@ -276,8 +280,11 @@ img.slide {
     border-radius: 0;
     //padding-bottom: 20px;
 }
-a.fa {
+a.fa, a.fa:hover, a.fa:active, a.fa:link, a.fa:focus, a.fa:visited {
     padding: 24px 10px !important;
+    border: 0 !important;
+    box-shadow: 0;
+    outline: none;
 }
 
 /* end nav styles */

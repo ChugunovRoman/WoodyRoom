@@ -1,0 +1,40 @@
+.modal-content > a.close {
+	margin: 0px 10px 0 0;
+	font-size: 34px;
+}
+.modal-content > a.close:active {
+	border: 0;
+}
+form#write_us {
+	display: block;
+	padding: 35px 24px;
+	background-color: #e7e7e7;
+	border-radius: 10px;
+}
+form#write_us > div {
+	width: 230px;
+	margin: 7px auto;
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+form#write_us > div > input, textarea {
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+form#write_us > div > input {
+	padding: 4px 10px;
+}
+div.form_submit {
+	text-align: right;
+}
+.btn_submit {
+	width: 100%;
+	padding: 12px !important;
+	border: 0 !important;
+	border-radius: 3px;
+	background-color: #c9c9c9;
+}
+.btn_submit:hover {
+	background-color: #B0DBFA;
+}
