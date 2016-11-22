@@ -285,6 +285,11 @@ a.fa, a.fa:hover, a.fa:active, a.fa:link, a.fa:focus, a.fa:visited {
     border: 0 !important;
     box-shadow: 0;
     outline: none;
+    z-index: 1000;
+}
+
+ul.nav li {
+    z-index: 1000;
 }
 
 /* end nav styles */
@@ -310,4 +315,8 @@ a.fa, a.fa:hover, a.fa:active, a.fa:link, a.fa:focus, a.fa:visited {
     background-color: rgba(0,0,0,0.6);
     padding: 15px 20px 4px 20px;
     color: white;
+}
+
+.bd-example-modal-sm {
+    overflow: hidden;
 }

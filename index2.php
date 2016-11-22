@@ -24,7 +24,7 @@
     <body>
         <nav class="navbar navbar-default">
             <div class="container-fluid">
-                <span class="logo">Woody Room</span>
+                <a href="#land_5"><span class="logo">Woody Room</span></a>
                 <div class="collapse navbar-collapse landingMenu" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#land_1" class="fa fa-cubes">Woody Room</a></li>
@@ -39,6 +39,31 @@
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
+
+        <!-- photo header WoodyRoom -->
+        <!-- style file: section_photo_header.css  -->
+        <section id="land_5" class="section_photo_header" name="our_works">
+            <div class="fotorama wow fadeIn"
+                data-width="100%"
+                data-height="600"
+                data-fit="cover"
+                data-loop="true"
+                data-transition="dissolve"
+                data-autoplay="true"
+                data-stopautoplayontouch="false"
+                data-autoplay="8000"
+                data-arrows="false"
+                data-wow-delay="0.6s">
+              <img src="images/OurWorks/1.jpg">
+              <img src="images/OurWorks/2.jpg">
+              <img src="images/OurWorks/3.jpg">
+              <img src="images/OurWorks/4.jpg">
+              <img src="images/OurWorks/5.jpg">
+              <img src="images/OurWorks/6.jpg">
+              <img src="images/OurWorks/7.jpg">
+            </div>
+        </section>
+        <!-- /photo header WoodyRoom -->
     
         <!-- section_one -->
         <!-- style file: css/section_one.css -->
@@ -47,8 +72,8 @@
                 <h1>Woody Room</h1>
                 <div class="col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4">
                     <p class="text_header--slide_left wow bounceInLeft" data-wow-delay="0.4s">Здесь</p><br>
-                    <p class="text_header--slide_left wow bounceInLeft" data-wow-delay="0.8s">творится</p><br>
-                    <p class="text_header--slide_left wow bounceInLeft" data-wow-delay="1.2s">волшебство</p>
+                    <p class="text_header--slide_left wow bounceInLeft" data-wow-delay="0.6s">творится</p><br>
+                    <p class="text_header--slide_left wow bounceInLeft" data-wow-delay="0.8s">волшебство</p>
                 </div>
                 <div class="col-md-4 col-sm-4 black-bg font_size-18px wow bounceInDown"  data-wow-duration="1s" data-wow-delay="0.6s">
                     <p>WoodyRoom - это семейная мануфактура, здесь мы создаем удивительные предметы интерьера, мебель и декор пространств для игр и радости ваших детей!</p>
@@ -76,13 +101,13 @@
         <section id="land_2" name="service">
             <div class="row section_service">
                 <h1>Услуги</h1>
-                <div class="col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 black-bg font_size-18px wow fadeIn" data-wow-delay="1s">
+                <div class="col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 black-bg font_size-18px wow fadeIn" data-wow-delay="0.4s">
                     <p>Сейчас мы делаем для вас деревянные полки-домики, полки-буквы, стеллажи, столики, ширмы, вешалки, коляски и кроватки для кукол, ящики для книг и многое другое - для самых необычных и ярких детских комнат! Все используемые нами материалы - дерево, краски, масла, лаки - натуральны, безопасны и проверены на наших детях.</p>
                 </div>
                 <div class="col-md-4 col-sm-4">
-                    <p class="text_header--slide_left wow fadeIn" data-wow-delay="0.8s">Здесь</p><br>
-                    <p class="text_header--slide_left wow fadeIn" data-wow-delay="0.8s">творится</p><br>
-                    <p class="text_header--slide_left wow fadeIn" data-wow-delay="0.8s">волшебство</p>
+                    <p class="text_header--slide_left wow fadeIn" data-wow-delay="0.2s">Здесь</p><br>
+                    <p class="text_header--slide_left wow fadeIn" data-wow-delay="0.4s">творится</p><br>
+                    <p class="text_header--slide_left wow fadeIn" data-wow-delay="0.6s">волшебство</p>
                 </div>
             </div>
         </section>
@@ -96,7 +121,11 @@
             </div>
             <div class="fotorama  wow fadeIn"
                 data-width="100%"
-                data-height="400"
+                data-height="500"
+                data-loop="true"
+                ata-fit="cover"
+                data-nav="thumbs"
+                data-keyboard="true"
                 data-wow-delay="0.6s">
               <img src="images/OurWorks/1.jpg">
               <img src="images/OurWorks/2.jpg">
