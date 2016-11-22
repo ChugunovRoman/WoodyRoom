@@ -13,21 +13,17 @@
         
         <!-- Google Web Font Embed -->
         <link href='http://fonts.googleapis.com/css?family=Raleway:400,600,500,300,700' rel='stylesheet' type='text/css'>
-        <!-- fotorama image slider -->
-        <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
-        
+
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/liLanding.css">
-        <link rel="stylesheet" href="css/animate.css">
     </head>
 
     <body>
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <a href="#land_5"><span class="logo">Woody Room</span></a>
-                <div class="collapse navbar-collapse landingMenu" id="bs-example-navbar-collapse-1">
+                <div  class="collapse navbar-collapse landingMenu" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#land_1" class="fa fa-cubes">Woody Room</a></li>
+                        <li><a href="#land_1" class="fa fa-cubes">Woody Room</a></li>
                         <li><a href="#land_2" class="fa fa-star">Услуги</a></li>
                         <li><a href="#land_3" class="fa fa-laptop">Наши работы</a></li>
                         <li><a href="#land_4" class="fa fa-users">О нас</a></li>
@@ -54,8 +50,18 @@
                 data-autoplay="8000"
                 data-arrows="false"
                 data-wow-delay="0.6s">
+              <div class="photo_block1">
+                 <div class="row">
+                    <h1>Заголовок на первом слайде</h1>
+                    <div class="col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 text--gray">
+                        <p>WoodyRoom - это семейная мануфактура, здесь мы создаем удивительные предметы интерьера, мебель и декор пространств для игр и радости ваших детей! Сейчас мы делаем для вас деревянные полки-домики, полки-буквы, стеллажи, столики, ширмы, вешалки, коляски и кроватки для кукол, ящики для книг и многое другое - для самых необычных и ярких детских комнат! Все используемые нами материалы - дерево, краски, масла, лаки - натуральны, безопасны и проверены на наших детях.</p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 black-bg wow lightSpeedIn" data-wow-duration="0.3s" data-wow-delay="1s">
+                        <p>WoodyRoom - это семейная мануфактура, здесь мы создаем удивительные предметы интерьера, мебель и декор пространств для игр и радости ваших детей! Сейчас мы делаем для вас деревянные полки-домики, полки-буквы, стеллажи, столики, ширмы, вешалки, коляски и кроватки для кукол, ящики для книг и многое другое - для самых необычных и ярких детских комнат! Все используемые нами материалы - дерево, краски, масла, лаки - натуральны, безопасны и проверены на наших детях.</p>
+                    </div>
+                </div>
+              </div>
               <img src="images/OurWorks/1.jpg">
-              <img src="images/OurWorks/2.jpg">
               <img src="images/OurWorks/3.jpg">
               <img src="images/OurWorks/4.jpg">
               <img src="images/OurWorks/5.jpg">
@@ -121,7 +127,7 @@
             </div>
             <div class="fotorama  wow fadeIn"
                 data-width="100%"
-                data-height="500"
+                data-height="460"
                 data-loop="true"
                 ata-fit="cover"
                 data-nav="thumbs"
@@ -166,7 +172,7 @@
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.backstretch.min.js"></script>
         <script src="js/templatemo_script.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+        <script src="js/fotorama.js"></script>
         <!-- <script src="/js/jquery-1.9.0.min.js"></script> -->
         <script src="js/jquery.liLanding.js"></script>
         <script src="js/wow.min.js"></script>

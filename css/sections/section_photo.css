@@ -1,0 +1,11 @@
+.section_photo {
+	background-color: #e7e7e7; 
+	padding: 10px 0 0px 0;
+}
+.section_photo h1 {
+		text-align: center;
+    margin: 20px 0 40px 0;
+}
+.fotorama {
+	padding-bottom: 20px;
+}

@@ -1,17 +1,20 @@
 /* Frameworks */
-@import "bootstrap.min.css";
-@import "font-awesome.min.css";
+@import "frameworks/bootstrap.min.css";
+@import "frameworks/font-awesome.min.css";
+@import "frameworks/liLanding.css";
+@import "frameworks/animate.css";
+@import "frameworks/fotorama.css";
 
 /* common style */
 @import "global.css";
 @import "templatemo_main.css";
 
 /* Section styles */
-@import "section_photo_header.css";
-@import "section_one.css";
-@import "section_photo.css";
-@import "section_three.css";
-@import "section_service.css";
+@import "sections/section_photo_header.css";
+@import "sections/section_one.css";
+@import "sections/section_photo.css";
+@import "sections/section_three.css";
+@import "sections/section_service.css";
 @import "form.css";
 
 /* media styles */
