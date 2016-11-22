@@ -32,10 +32,12 @@
 						var linkTarget = $(linkHref);
 						var linkTargetPos = linkTarget.offset().top - 40;
 						var windowPos = $(window).scrollTop();
-						var animDuration = linkTargetPos - windowPos
+						var animDuration = linkTargetPos - windowPos;
 						if(animDuration < 0){
-							animDuration = animDuration*-1	
+							animDuration = animDuration*-1
 						}
+						animDuration = 400;
+						//console.log(animDuration);
 						//scroll the page to the desired block
 						if(linkTarget.length){
 							$('html, body').stop(true).animate({scrollTop:(linkTargetPos-parseFloat(p.topMargin))},animDuration*p.speedFactor,function(){

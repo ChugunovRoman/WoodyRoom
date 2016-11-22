@@ -77,11 +77,11 @@
             <div class="row section_one">
                 <h1>Woody Room</h1>
                 <div class="col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4">
-                    <p class="text_header--slide_left wow bounceInLeft" data-wow-delay="0.4s">Здесь</p><br>
-                    <p class="text_header--slide_left wow bounceInLeft" data-wow-delay="0.6s">творится</p><br>
-                    <p class="text_header--slide_left wow bounceInLeft" data-wow-delay="0.8s">волшебство</p>
+                    <p class="text_header--slide_left wow bounceInLeft" data-wow-delay="0.2s">Здесь</p><br>
+                    <p class="text_header--slide_left wow bounceInLeft" data-wow-delay="0.4s">творится</p><br>
+                    <p class="text_header--slide_left wow bounceInLeft" data-wow-delay="0.6s">волшебство</p>
                 </div>
-                <div class="col-md-4 col-sm-4 black-bg font_size-18px wow bounceInDown"  data-wow-duration="1s" data-wow-delay="0.6s">
+                <div class="col-md-4 col-sm-4 black-bg font_size-18px wow bounceInDown"  data-wow-duration="1s" data-wow-delay="0.4s">
                     <p>WoodyRoom - это семейная мануфактура, здесь мы создаем удивительные предметы интерьера, мебель и декор пространств для игр и радости ваших детей!</p>
                 </div>
             </div>

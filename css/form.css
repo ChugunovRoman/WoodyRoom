@@ -34,7 +34,9 @@ div.form_submit {
 	border: 0 !important;
 	border-radius: 3px;
 	background-color: #c9c9c9;
+	transition: 0.14s;
 }
 .btn_submit:hover {
 	background-color: #B0DBFA;
+	transition: 0.14s;
 }
